@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SignIn &amp; API</string>
+    <string name="already_have_an_account_login">Already have an Account ? Login</string>
+    <string name="login">Login</string>
+</resources>
