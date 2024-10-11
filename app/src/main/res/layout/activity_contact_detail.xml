@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#603BA4FF"
+    android:orientation="vertical"
+    tools:context=".ContactDetailActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:background="#AFB5DD"
+        android:padding="5dp"
+        android:text="@string/users_details"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dataName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="50dp"
+        android:height="50dp"
+        android:gravity="center_vertical"
+        android:hint="Name"
+        android:paddingStart="5dp"
+        android:textSize="23sp"
+        tools:ignore="HardcodedText,RtlSymmetry" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dataEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="50dp"
+        android:hint="Email"
+        android:padding="5dp"
+        android:textSize="23dp"
+        tools:ignore="HardcodedText" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dataPhoneNo"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Phone Number"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText"
+        android:padding="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="50dp" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/dataPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:textSize="22sp"
+        tools:ignore="HardcodedText"
+        android:padding="5dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginRight="50dp" />
+</LinearLayout>

@@ -33,14 +33,15 @@
 
         <EditText
             android:drawableStart="@drawable/email_icon"
+            android:importantForAutofill="no"
             android:padding="15dp"
-            android:id="@+id/userEmail"
+            android:id="@+id/Login_userEmail"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center"
-            android:hint="Enter the Email Id"
+            android:hint="Enter the Phone Number "
             android:textColorHint="#78909C"
-            android:textSize="20sp"
+            android:textSize="15sp"
             tools:ignore="HardcodedText,TextFields" />
 
     </LinearLayout>
@@ -58,19 +59,20 @@
             android:layout_height="match_parent">
 
             <EditText
-                android:id="@+id/userPassword"
+                android:id="@+id/Login_userPassword"
                 android:paddingStart="15dp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:hint="Enter the Password"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:drawableStart="@drawable/password_icon"
                 tools:ignore="HardcodedText,RtlSymmetry" />
         </LinearLayout>
     </com.google.android.material.card.MaterialCardView>
 
     <Button
+        android:id = "@+id/loginButton"
         android:layout_width="150sp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
