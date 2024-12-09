@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_margin="5dp"
+        android:background="@drawable/border"
+        tools:ignore="UselessParent">
+
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="48dp"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            tools:ignore="TouchTargetSizeCheck,VisualLintBounds" />
+
+        <TextView
+            android:id="@+id/eachText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:inputType="textMultiLine"
+            android:minHeight="48dp"
+            android:overScrollMode="always"
+            android:padding="5dp"
+            android:scrollbars="vertical"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            tools:ignore="Autofill,HardcodedText,LabelFor,SpeakableTextPresentCheck,TextViewEdits,VisualLintTextFieldSize" />
+
+    </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+

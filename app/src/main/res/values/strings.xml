@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TaskFlow</string>
+    <string name="task_add">Task Add</string>
+</resources>
